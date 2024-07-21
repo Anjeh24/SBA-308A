@@ -1,6 +1,7 @@
 //console.log('it works!');
 let futureContnt = document.getElementById('ptag');
 let clickBtn = document.getElementById('btn');
+let mainDiv = document.getElementById('content');
 
 clickBtn.addEventListener('click', theCatApi);
 
@@ -11,8 +12,10 @@ async function theCatApi(){
    const url = jsdata.message;
 
    console.log(respns);
-
-   const imgPlaceholder = document.createElement('img');
-   futureContnt.innerHTML = imgPlaceholder;
-   imgPlaceholder.src = url;
+   console.log(url);
+   const images = document.createElement('img');
+   mainDiv.appendChild(images);
+   images.src = url;
+   
 }
+theCatApi();

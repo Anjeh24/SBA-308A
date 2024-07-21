@@ -1,0 +1,31 @@
+body {
+    background-color: gainsboro;
+    margin: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#contents {
+    border: 2px whitesmoke solid;
+   margin-left: 41%;
+    height: 350px;
+    width: 300px;
+    
+   
+   
+
+}
+
+#ptag {
+    text-align: center;
+}
+
+#btn {
+    margin-left: 47%;
+    margin-top: 2%;
+    background-color: blanchedalmond;
+    height: 40px;
+    border-radius: 5px;
+}

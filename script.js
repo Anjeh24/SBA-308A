@@ -10,7 +10,7 @@ async function theCatApi(){
    const blobs = await response.blob();
    console.log(blobs);
 
-   document.getElementById('pets').src = URL.createObjectURL(blobs);
+   document.getElementById('pets').src = URL.createObjectURL(blobs);  //credits, coding train
    
     
   }

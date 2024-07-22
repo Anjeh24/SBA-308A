@@ -12,4 +12,4 @@
 //     alertResponse(res);
 //  }
 
- export {getPosting}
+ //export {getPosting}

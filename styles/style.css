@@ -35,3 +35,10 @@ img {
     height: 200px;
     width: 200px
 }
+
+#postdiv {
+    align-content: center;
+    margin: 30%;
+    margin-top: 10%;
+    margin-left: 42%;
+}

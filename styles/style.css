@@ -9,10 +9,11 @@ h1 {
 }
 
 #contents {
-    border: 2px whitesmoke solid;
+    border: 2px gray solid;
    margin-left: 41%;
     height: 350px;
     width: 300px;
+    background-color: gainsboro;
     
    
    
@@ -45,3 +46,12 @@ img {
     margin-top: 10%;
     margin-left: 42%;
 }
+
+#divonbody{
+    background-image: url("../APIimg/kitty paws-1009961028-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    border-radius: 6px;
+} 

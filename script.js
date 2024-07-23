@@ -27,7 +27,7 @@ async function theCatApi(){
         const response = await fetch("https://api.thecatapi.com/v1/images/search");
         const blobs = await response.json(); //so, instead of converting the response to a blob, I decided to convert it to a json
         //which then gave me the array [] with object and url as one of the keys. Decided to try 'lasering' the url key value and
-        //insert it into the image . BINGOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!! IT WORKED! Let me go have a good night sleep! Old code commented out down below.
+        //inserted it into the image . BINGOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!! IT WORKED! Let me go have a good night sleep! Old code commented out down below.
        console.log(blobs);
        const images = blobs[0].url;
         document.getElementById('pets').src = images;       //URL.createObjectURL(blobs);  //credits, coding train

@@ -1,3 +1,5 @@
+import { my_Key } from "./module1";
+
 // async function getPosting(){        
 //     let enteredInfo = infoBar.ariaValueMax;
 //     let reqoutput = {data: enteredInfo};

@@ -5,7 +5,7 @@ let mainDiv = document.getElementById('content');
 let secndBtn = document.getElementById('btntwo');
 let infoBar = document.getElementById('postcat');
 
-import { my_Key } from "./modules/module1";
+//import { my_Key } from "./modules/module1";
 
 
 clickBtn.addEventListener('click', theCatApi);

@@ -43,8 +43,8 @@ img {
 #postdiv {
     align-content: center;
     margin: 30%;
-    margin-top: 10%;
-    margin-left: 42%;
+     margin-top: 10%;
+    margin-left: 42%; 
 }
 
 #divonbody{
@@ -54,4 +54,5 @@ img {
     height: 550px;
     width: 100%;
     border-radius: 6px;
+    
 } 
